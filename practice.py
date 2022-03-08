@@ -15,6 +15,19 @@ print(5 <= 5) #True
 print(3 == 3) #앞과 뒤의 값이 같다
 print(3 == 5)
 print(3 + 4 == 7)
-#업데이트 확인용 주석
 
-print("제발ㅋㅋ")
+print(1 != 3) #앞과 뒤가 같지 않다 True
+print(not(1 != 3)) #False
+
+print((3 > 0) and (3 < 5)) #True
+print((3 > 0) & (3 < 5)) #True
+
+print((3 > 0) or (3 > 5)) #or조건일때 둘중 하나만 맞으면 True 출력  or=|
+print((3 > 0) | (3 > 5)) #True
+
+print(5 > 4 > 3) #True
+print(5 > 4 > 7) #False
+
+
+
+
